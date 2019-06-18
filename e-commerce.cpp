@@ -435,6 +435,7 @@ class Site{
             cout<<"\n\t\tPRICE : "<<tmp->Price;
             cout<<"\n\t\tSTOCK : "<<tmp->stock;
             cout<<"\n\t\tRATING : "<<tmp->Rating;
+            cout<<"\n\t\tSECTION : "<<tmp->Section;
             if(u.isSeller) {cout<<"\n\t\tNUMBER OF PEOPLE WHO BOUGHT THIS : "<<tmp->No_Raters;
             cout<<"\n\t\tNUMBER FO PEOPLE WHO VIEWED THIS PRODUCT : "<<tmp->Views;}
             cout<<"\n\n\t\tREVIEWS : ";
@@ -508,6 +509,7 @@ class Site{
             cout<<"\n\t\t   PRICE : "<<I.Price;
             cout<<"\n\t\t   STOCK : "<<I.stock;
             cout<<"\n\t\t   RATING : "<<I.Rating;
+            cout<<"\n\t\t   SECTION : "<<I.Section;
             int cont = 0;
             cout<<"\n\n\t\tChoose 1 to CONTINUE, 0 to DELETE";
             cin>>cont;
@@ -595,13 +597,14 @@ class Site{
             		Clr_Scr();
             		center_align("E-MARKET PRODUCTS - " + sect);
                     cout<<"\n";
-                    for(ll i = 1;i <= 5 && !h.empty();i++){
+                    for(ll i = 1;i <= 3 && !h.empty();i++){
                     	Item I = h.top();
                     	cout<<"\n\t\t"<<++count<<". NAME : "<<I.Name;
                     	cout<<"\n\t\t   SELLER : "<<I.Seller;
                     	cout<<"\n\t\t   PRICE : "<<I.Price;
                     	cout<<"\n\t\t   STOCK : "<<I.stock;
                     	cout<<"\n\t\t   RATING : "<<I.Rating;
+                        cout<<"\n\t\t   SECTION : "<<I.Section;
                     	cout<<"\n";
                         h.pop();
                     }
@@ -639,13 +642,14 @@ class Site{
             		Clr_Scr();
             		center_align("E-MARKET PRODUCTS - " + sect);
                     cout<<"\n";
-                    for(ll i = 1;i <= 5 && !h.empty();i++){
+                    for(ll i = 1;i <= 3 && !h.empty();i++){
                     	Item I = h.top();
                     	cout<<"\n\t\t"<<++count<<". NAME : "<<I.Name;
                     	cout<<"\n\t\t   SELLER : "<<I.Seller;
                     	cout<<"\n\t\t   PRICE : "<<I.Price;
                     	cout<<"\n\t\t   STOCK : "<<I.stock;
                     	cout<<"\n\t\t   RATING : "<<I.Rating;
+                        cout<<"\n\t\t   SECTION : "<<I.Section;
                     	cout<<"\n";
                         h.pop();
                     }
@@ -683,13 +687,14 @@ class Site{
             		Clr_Scr();
             		center_align("E-MARKET PRODUCTS - " + sect);
                     cout<<"\n";
-                    for(ll i = 1;i <= 5 && !h.empty();i++){
+                    for(ll i = 1;i <= 3 && !h.empty();i++){
                     	Item I = h.top();
                     	cout<<"\n\t\t"<<++count<<". NAME : "<<I.Name;
                     	cout<<"\n\t\t   SELLER : "<<I.Seller;
                     	cout<<"\n\t\t   PRICE : "<<I.Price;
                     	cout<<"\n\t\t   STOCK : "<<I.stock;
                     	cout<<"\n\t\t   RATING : "<<I.Rating;
+                        cout<<"\n\t\t   SECTION : "<<I.Section;
                     	cout<<"\n";
                         h.pop();
                     }
@@ -729,13 +734,14 @@ class Site{
             		Clr_Scr();
             		center_align("E-MARKET PRODUCTS - " + sect);
                     cout<<"\n";
-                    for(ll i = 1;i <= 5 && !h.empty();i++){
+                    for(ll i = 1;i <= 3 && !h.empty();i++){
                     	Item I = h.top();
                     	cout<<"\n\t\t"<<++count<<". NAME : "<<I.Name;
                     	cout<<"\n\t\t   SELLER : "<<I.Seller;
                     	cout<<"\n\t\t   PRICE : "<<I.Price;
                     	cout<<"\n\t\t   STOCK : "<<I.stock;
                     	cout<<"\n\t\t   RATING : "<<I.Rating;
+                        cout<<"\n\t\t   SECTION : "<<I.Section;
                     	cout<<"\n";
                         h.pop();
                     }
@@ -773,13 +779,14 @@ class Site{
             		Clr_Scr();
             		center_align("E-MARKET PRODUCTS - " + sect);
                     cout<<"\n";
-                    for(ll i = 1;i <= 5 && !h.empty();i++){
+                    for(ll i = 1;i <= 3 && !h.empty();i++){
                     	Item I = h.top();
                     	cout<<"\n\t\t"<<++count<<". NAME : "<<I.Name;
                     	cout<<"\n\t\t   SELLER : "<<I.Seller;
                     	cout<<"\n\t\t   PRICE : "<<I.Price;
                     	cout<<"\n\t\t   STOCK : "<<I.stock;
                     	cout<<"\n\t\t   RATING : "<<I.Rating;
+                        cout<<"\n\t\t   SECTION : "<<I.Section;
                     	cout<<"\n";
                         h.pop();
                     }
@@ -817,13 +824,14 @@ class Site{
             		Clr_Scr();
             		center_align("E-MARKET PRODUCTS - " + sect);
                     cout<<"\n";
-                    for(ll i = 1;i <= 5 && !h.empty();i++){
+                    for(ll i = 1;i <= 3 && !h.empty();i++){
                     	Item I = h.top();
                     	cout<<"\n\t\t"<<++count<<". NAME : "<<I.Name;
                     	cout<<"\n\t\t   SELLER : "<<I.Seller;
                     	cout<<"\n\t\t   PRICE : "<<I.Price;
                     	cout<<"\n\t\t   STOCK : "<<I.stock;
                     	cout<<"\n\t\t   RATING : "<<I.Rating;
+                        cout<<"\n\t\t   SECTION : "<<I.Section;
                     	cout<<"\n";
                         h.pop();
                     }
