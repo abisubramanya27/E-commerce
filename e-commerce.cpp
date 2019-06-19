@@ -511,7 +511,7 @@ class Site{
             cout<<"\n\t\t   RATING : "<<I.Rating;
             cout<<"\n\t\t   SECTION : "<<I.Section;
             int cont = 0;
-            cout<<"\n\n\t\tChoose 1 to CONTINUE, 0 to DELETE";
+            cout<<"\n\n\t\tChoose 1 to CONTINUE, 0 to DELETE : ";
             cin>>cont;
             if(cont){
             	ll nop = 1e9+7;
@@ -535,7 +535,10 @@ class Site{
         cin.ignore();
         Pause();
         Clr_Scr();
-        cout<<"\n\n\t\t\tThank you for Shopping with us !!"<<flush;
+        if(count > 0)
+            cout<<"\n\n\t\t\tThank you for Shopping with us !!"<<flush;
+        else
+            cout<<"\n\n\t\t\tGoing Back.."<<flush;
         SLEEP(2500);
     }
 
